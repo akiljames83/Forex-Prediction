@@ -1,0 +1,4 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    88  100    88    0     0    143      0 --:--:-- --:--:-- --:--:--   143
+[{"symbol":"USDCAD","bid":1.30105,"ask":1.30109,"price":1.30107,"timestamp":1536815907}]

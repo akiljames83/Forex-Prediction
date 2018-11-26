@@ -1,0 +1,30 @@
+Prep:
+a) convert txt file to csv with preprocess_txt_file.py
+
+Structure:
+1. Created the model with model_creation.py
+
+2. Call scrape_for_prediction.py
+ -> This calls the scrape for calidation.py script once finished, can be made more efficient with argparse
+
+3. Call forecast_trend.py to predict time steps into the future
+
+4. forecasted_validation_graph.py to see the results numerically and graphically, as well as stroing the picture of the out graph.
+
+
+Todos:
+- set up bash on the home computer for scraping in the future
+
+- find a way to split the dataset for proper training
+- try a few different model strucutres
+- convert to cudnnlstm for better training
+- larger training set size
+- play around with parameters
+
+
+- make use of gc to free up memory
+- only use 15-20% of training set size for training
+~6 million pieces of data in original, so try to train on 10 chunks of 50,000
+
+- test out a model first with only 50,000 pieces of data and then predict on like 55000 - 56000 data
+points to see how accurate this is by meshing these collection methods
